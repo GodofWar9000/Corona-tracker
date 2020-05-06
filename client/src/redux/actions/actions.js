@@ -17,6 +17,7 @@ import {
   setSurveyPage3,
   setSurveyPage4,
   clearSurvey,
+  setReminderStatus,
 } from './survey';
 import {
   setDemographicsComorbiditiesThunk,
@@ -24,6 +25,10 @@ import {
   fetchDemographicsComorbidities,
   setDisclaimerAnswerThunk,
   resetDisclaimerAnswer,
+  setSubscribedNumber,
+  fetchSubscribedNumber,
+  unsubscribeNumber,
+  clearResponse,
 } from './onboarding';
 import { deleteUserDataThunk } from './deleteUserData';
 
@@ -32,6 +37,10 @@ const actions = {
   addObservation,
   deleteObservations,
   setDisclaimerAnswerThunk,
+  setSubscribedNumber,
+  fetchSubscribedNumber,
+  unsubscribeNumber,
+  clearResponse,
   selectDate,
   setToggleValue,
   setDetailData,
@@ -43,6 +52,7 @@ const actions = {
   setSurveyPage3,
   setSurveyPage4,
   clearSurvey,
+  setReminderStatus,
   setDemographicsComorbiditiesThunk,
   fetchDemographicsComorbidities,
   resetDisclaimerAnswer,
